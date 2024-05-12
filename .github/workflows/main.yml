@@ -197,7 +197,6 @@ jobs:
           if-no-files-found: error
 
   android-ndll:
-    needs: macos-ndll
     runs-on: macos-11
     steps:
 
